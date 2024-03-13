@@ -8,9 +8,10 @@ def main():
     #print_("Welcome to this program!\n")
 
     user_name = input("Please enter your name: ").capitalize()
+    intro(user_name)
 
-def intro():
-    print
+def intro(user_name):
+    print("Hello" + user_name + " welcome!")
 
 def time_():
     time.sleep(3)
