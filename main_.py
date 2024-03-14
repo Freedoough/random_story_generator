@@ -17,8 +17,9 @@ def intro():
     
     print("Hello " + user_name + "!")
 
-#def main():
-    
+    main()
+
+def main():
+    os.read("story_content_1.py", 'r')
 
 intro()
-#main()
