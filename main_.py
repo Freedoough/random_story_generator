@@ -1,20 +1,24 @@
+"""
+This program is a command line based interactive story generator. 
+The purpose of this program is to generate a story for the user that they make choices
+for that have different outcomes based on the choices made.
+It will utilize file recognition to take pre-written story content and based on conditional statements, will run them accordingly.
+"""
 import time
 import random
+import math
+import os
 
-def main():
-    
-    print("Hello!")
-    time_()
-    #print_("Welcome to this program!\n")
+def intro():
 
+    print("Welcome to this awesome program!")
+    time.sleep(2)
     user_name = input("Please enter your name: ").capitalize()
-    intro(user_name)
+    
+    print("Hello " + user_name + "!")
 
-def intro(user_name):
-    print("Hello" + user_name + " welcome!")
+#def main():
+    
 
-def time_():
-    time.sleep(3)
-def print_(text):
-    print
-main()
+intro()
+#main()
