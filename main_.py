@@ -22,5 +22,8 @@ def intro():
 def main():
     #os.read("story_content_1.py", 'r')
     #figure out syntax for file reading
+    time.sleep(2)
+    print("test")
+
 
 intro()
