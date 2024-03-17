@@ -20,6 +20,7 @@ def intro():
     main()
 
 def main():
-    os.read("story_content_1.py", 'r')
+    #os.read("story_content_1.py", 'r')
+    #figure out syntax for file reading
 
 intro()
