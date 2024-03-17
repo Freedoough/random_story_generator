@@ -23,7 +23,8 @@ def main():
     #os.read("story_content_1.py", 'r')
     #figure out syntax for file reading
     time.sleep(2)
-    
+    #make the if statements a random number from 1-5
+    #figure thisn0ut asap
     choice = input("\nTo start, pick a number from 1 to 5: ")
 
     if choice == "1":
