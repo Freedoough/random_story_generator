@@ -6,8 +6,8 @@ It will utilize file recognition to take pre-written story content and based on 
 """
 import time
 import random
-import math
-import os
+import story_content_1
+import functions
 
 def intro():
 
@@ -24,7 +24,11 @@ def main():
     #figure out syntax for file reading
     time.sleep(2)
     #make the if statements a random number from 1-5
-    #figure thisn0ut asap
+  
+
+
+    #test 
+
     choice = input("\nTo start, pick a number from 1 to 5: ")
 
     if choice == "1":
@@ -45,4 +49,10 @@ def main():
         main()
 
 
+
+
+functions.time_sleep(3, "You stand in front of a tree.")
+functions.time_sleep(4, "It's a very big tree.")
+story_content_1.test()
 intro()
+
