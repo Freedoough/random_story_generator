@@ -15,5 +15,6 @@ def main():
         i += 1
 
 
-    functions.time_sleep(2, "You're walking in a tall grass field...\n")
-    functions.time_sleep(3, "\n")
+    functions.time_sleep(3, "You're walking in a tall grass field...\n")
+    functions.time_sleep(3, "You can barely see above the grass.\n")
+    functions.time_sleep(3, "You can make out a treeline in the distance.\n")
