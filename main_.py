@@ -28,24 +28,33 @@ def main():
     #functions.time_sleep(4, "It's a very big tree.")
   
 
-    choice = input("\nTo start, pick a number from 1 to 5: ")
+    generate = input("\nTo start, enter 'N' to generate a story: ").capitalize()
 
-    if choice == "1":
-        print("function 1")
-    elif choice == "2":
-        print("function 2")
-    elif choice == "3":
-        print("function 3")
-    elif choice == "4":
-        print("function 4")
-    elif choice == "5":
-        print("function 5")
+    if generate == "N":
+        
+        num_random = random.randint(1,5)
+
+        if num_random == 1:
+            print("function 1")
+        elif num_random == 2:
+            print("function 2")
+        elif num_random == 3:
+            print("function 3")
+        elif num_random == 4:
+            print("function 4")
+        elif num_random == 5:
+            print("function 5")
+        else:
+            print("INVALID")
+            time.sleep(2)
+            print("Try again...")
+            time.sleep(1)
+            main()
     else:
-        print("INVALID")
-        time.sleep(2)
-        print("Try again...")
-        time.sleep(1)
+        functions.time_sleep(1, "INVALID")
+        functions.time_sleep(2, "Try again...")
         main()
+
 
 # This line below is for reference
 #story_content_1.test()
