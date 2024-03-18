@@ -39,7 +39,7 @@ def main():
         if num_random == 1:
             story_content_1.main()
         elif num_random == 2:
-            story content_2.main()
+            story_content_2.main()
         elif num_random == 3:
             story_content_3.main()
         elif num_random == 4:
