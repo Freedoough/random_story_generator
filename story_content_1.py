@@ -15,5 +15,5 @@ def main():
         i += 1
 
 
-    functions.time_sleep(2, "You randomly appear in front of a corn maze...")
-    functions.time_sleep(3, "It's a very big corn maze.")
+    functions.time_sleep(2, "You're walking in a tall grass field...\n")
+    functions.time_sleep(3, "\n")
