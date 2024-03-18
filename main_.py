@@ -7,6 +7,10 @@ It will utilize file recognition to take pre-written story content and based on 
 import time
 import random
 import story_content_1
+import story_content_2
+import story_content_3
+import story_content_4
+import story_content_5
 import functions
 
 def intro():
@@ -14,20 +18,15 @@ def intro():
     print("Welcome to this awesome program!")
     time.sleep(2)
     user_name = input("Please enter your name: ").capitalize()
-    #figure out time and print functions and pass in data to them
     print("Hello " + user_name + "!")
     
     main()
 
 def main():
-    #os.read("story_content_1.py", 'r')
-    #figure out syntax for file reading
-    time.sleep(2)
-    #make the if statements a random number from 1-5
+    # These two lines are for reference
+    #functions.time_sleep(3, "You stand in front of a tree.")
+    #functions.time_sleep(4, "It's a very big tree.")
   
-
-
-    #test 
 
     choice = input("\nTo start, pick a number from 1 to 5: ")
 
@@ -48,11 +47,7 @@ def main():
         time.sleep(1)
         main()
 
-
-
-
-functions.time_sleep(3, "You stand in front of a tree.")
-functions.time_sleep(4, "It's a very big tree.")
-story_content_1.test()
+# This line below is for reference
+#story_content_1.test()
 intro()
 
