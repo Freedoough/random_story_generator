@@ -32,18 +32,18 @@ def main():
 
     if generate == "N":
         
-        num_random = random.randint(1,5)
+        num_random = random.randint(1, 5)
 
         if num_random == 1:
-            print("function 1")
+            story_content_1.main()
         elif num_random == 2:
-            print("function 2")
+            story content_2.main()
         elif num_random == 3:
-            print("function 3")
+            story_content_3.main()
         elif num_random == 4:
-            print("function 4")
+            story_content_4.main()
         elif num_random == 5:
-            print("function 5")
+            story_content_5.main()
         else:
             print("INVALID")
             time.sleep(2)
