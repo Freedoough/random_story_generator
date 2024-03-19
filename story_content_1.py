@@ -34,5 +34,10 @@ def main():
     functions.time_sleep(4, "You think to yourself: 'I must find a way out of here'.\n")
     functions.time_sleep(4, "The only way forward is straight. Despite the darkness, you head forward through the tunnel.\n")
     functions.time_sleep(4, "You start making your way through.\n")
+    functions.time_sleep(5, "As you step forward you bang your head into a metal, vault-like door you failed to see.\n")
+    functions.time_sleep(4, "You step back and feel the circular vault knob thing.\n")
+    functions.time_sleep(3.5, "And attempt to open it.\n")
+    functions.time_sleep(4, "As you turn the knob, it slowly gives way and starts to turn, releasing the door.\n")
+    functions.time_sleep(4, "It takes an immense amount of effort, but it opens and squeaks as it opens and reveals what's on the other side.\n")
     functions.time_sleep(4, "")
 
