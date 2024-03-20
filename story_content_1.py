@@ -1,6 +1,5 @@
-#Story content of first file
 #Story 1:
-#A very simple maze
+#A maze
 import functions
 import random
 import time
@@ -39,5 +38,34 @@ def main():
     functions.time_sleep(3.5, "And attempt to open it.\n")
     functions.time_sleep(4, "As you turn the knob, it slowly gives way and starts to turn, releasing the door.\n")
     functions.time_sleep(4, "It takes an immense amount of effort, but it opens and squeaks as it opens and reveals what's on the other side.\n")
-    functions.time_sleep(4, "")
+    functions.time_sleep(5, "Inside the door is a room, about the size of a High School classroom, lit by torches.\n")
+    functions.time_sleep(4, "Taking one step inside the room, the door shuts behind you..\n")
+    functions.time_sleep(2, "Ominously...\n")
+    functions.time_sleep(4, "You notice three hallways on the far wall of the room. All of which have signs above them.\n")
+    functions.time_sleep(5, "Out of curiousity, you approach the wall to get a better look.\n")
+    functions.time_sleep(4, "The sign above the left hallway has an crude drawing of a skull and crossbones.\n")
+    functions.time_sleep(4, "The sign above the middle hallway has another drawing of what appears to be an ingot of some kind.\n")
+    functions.time_sleep(4, "Finally, the sign above the right hallway has a drawing of a very basic fish. Something like a kindergartener would draw.\n")
+
+    first_branch()
+
+def first_branch():
+    
+    user_choice = input("Which hallway do you go down? (left/middle/right): ").capitalize()
+
+    if user_choice == "Left":
+        left_hallway()
+    elif user_choice == "Middle":
+        middle_hallway()
+    elif user_choice == "Right":
+        right_hallway()
+
+def left_hallway():
+    print("left")
+
+def middle_hallway():
+    print("middle")
+
+def right_hallway():
+    print("right")
 
