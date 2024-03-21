@@ -59,13 +59,25 @@ def first_branch():
         middle_hallway()
     elif user_choice == "Right":
         right_hallway()
+    else:
+        functions.time_sleep(2, "INVALID...")
+        first_branch()
 
 def left_hallway():
-    print("left")
+    #Skull & crossbones
+    functions.time_sleep(5, "You confidently enter the hallway to the left. Ignorant of what might await you.\n")
+    functions.time_sleep(4, "As you make your way down the corridor, you notice lights in the distance.\n")
+    functions.you_died()
 
 def middle_hallway():
+    #Ingot
     print("middle")
 
 def right_hallway():
+    #Fish
     print("right")
+
+
+
+
 
