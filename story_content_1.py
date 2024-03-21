@@ -67,7 +67,9 @@ def left_hallway():
     #Skull & crossbones
     functions.time_sleep(5, "You confidently enter the hallway to the left. Ignorant of what might await you.\n")
     functions.time_sleep(4, "As you make your way down the corridor, you notice lights in the distance.\n")
-    functions.you_died()
+    functions.time_sleep(3, "You approach the lights.\n")
+    functions.time_sleep(4, "You hear faint whispers in your ear that makes the hair on the back of your neck stand on end.\n")
+    functions.time_sleep(4, "")
 
 def middle_hallway():
     #Ingot
