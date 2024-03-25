@@ -69,6 +69,9 @@ def left_hallway():
     functions.time_sleep(4, "As you make your way down the corridor, you notice lights in the distance.\n")
     functions.time_sleep(3, "You approach the lights.\n")
     functions.time_sleep(4, "You hear faint whispers in your ear that makes the hair on the back of your neck stand on end.\n")
+    functions.time_sleep(4, "The lights in the distance disappear.\n")
+    functions.time_sleep(3, "Your skin crawls..\n")
+    functions.time_sleep(4, "You hesitate to go forward, but decide to push on.\n")
     functions.time_sleep(4, "")
 
 def middle_hallway():
