@@ -72,7 +72,36 @@ def left_hallway():
     functions.time_sleep(4, "The lights in the distance disappear.\n")
     functions.time_sleep(3, "Your skin crawls..\n")
     functions.time_sleep(4, "You hesitate to go forward, but decide to push on.\n")
-    functions.time_sleep(4, "")
+    functions.time_sleep(4, "Continuing down the corridor, you eventually reach the end.\n")
+    functions.time_sleep(4, "You reach out in front of you, not being able to see anything, and feel another door.\n")
+    functions.time_sleep(5, "Opening the door, you're met with a long room.\n")
+    functions.time_sleep(4, "You can clearly see giant swinging pendulums that are shaped like hatchet.\n")
+    functions.time_sleep(4, "At the opposite end of the room, you see another door, which looks welcoming.\n")
+    functions.time_sleep(3, "'The way out?'"
+    functions.time_sleep(1, "You whisper to yourself.\n")
+    functions.time_sleep(4, "You approach the first set of pendulums cautiously and plan out your next moves carefully.\n")
+    
+    chance_of_survival()
+
+    def chance_of_survival()
+        time.sleep(2)
+
+        chance = input("Enter 'E' to execute: ").capitalize()
+
+        if chance == "E":
+
+        random_num = randomint(1,20)
+
+            if random_num >= 11:
+                print("Success!")
+            elif random_num <= 10:
+                print("FAIL!")
+
+
+
+
+
+
 
 def middle_hallway():
     #Ingot

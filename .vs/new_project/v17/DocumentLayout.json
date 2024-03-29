@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:story_content_1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\functions.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:functions.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_4.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:story_content_4.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:story_content_3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_5.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -19,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main_.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_4.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:story_content_4.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:story_content_3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:story_content_2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\functions.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:functions.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "story_content_5.py",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_5.py",
               "RelativeDocumentMoniker": "story_content_5.py",
@@ -67,55 +67,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "story_content_4.py",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_4.py",
               "RelativeDocumentMoniker": "story_content_4.py",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_4.py",
               "RelativeToolTip": "story_content_4.py",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-03-17T06:06:11.534Z"
+              "WhenOpened": "2024-03-17T06:06:11.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "story_content_3.py",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_3.py",
               "RelativeDocumentMoniker": "story_content_3.py",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_3.py",
               "RelativeToolTip": "story_content_3.py",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-03-17T06:04:02.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "story_content_2.py",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_2.py",
               "RelativeDocumentMoniker": "story_content_2.py",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_2.py",
               "RelativeToolTip": "story_content_2.py",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAswBEAAABEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-03-17T06:03:21.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "main_.py",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\main_.py",
               "RelativeDocumentMoniker": "main_.py",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\main_.py",
               "RelativeToolTip": "main_.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-03-17T06:00:24.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "functions.py",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\functions.py",
               "RelativeDocumentMoniker": "functions.py",
@@ -131,9 +132,9 @@
               "Title": "story_content_1.py",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_1.py",
               "RelativeDocumentMoniker": "story_content_1.py",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_1.py*",
-              "RelativeToolTip": "story_content_1.py*",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEcAAAAcAAAA",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_1.py",
+              "RelativeToolTip": "story_content_1.py",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-03-17T06:02:28.912Z",
               "EditorCaption": ""
