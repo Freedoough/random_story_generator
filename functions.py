@@ -1,11 +1,13 @@
 import time
+
+# Time sleep function with message and time arguments
 def time_sleep(_time, message):
     print(message)
     time.sleep(_time)
 
 
 
-
+# You died function to be called
 def you_died():
     n = 0
 
