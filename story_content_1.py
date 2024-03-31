@@ -64,7 +64,7 @@ def first_branch():
         first_branch()
 
 def left_hallway():
-    #Skull & crossbones
+    # Skull & crossbones
     functions.time_sleep(5, "You confidently enter the hallway to the left. Ignorant of what might await you.\n")
     functions.time_sleep(4, "As you make your way down the corridor, you notice lights in the distance.\n")
     functions.time_sleep(3, "You approach the lights.\n")
@@ -92,7 +92,7 @@ def left_hallway():
             random_num = random.randint(1,20)
 
             if random_num >= 11:
-                print("Success!")
+                left_hallway_survival_success()
             elif random_num <= 10:
                 print("FAIL!")
                 functions.you_died()
@@ -108,7 +108,15 @@ def left_hallway():
 
     chance_of_survival()
 
-
+def left_hallway_survival_success()
+    
+    functions.time_sleep(3, "You break into a sprint and carefully dodge each pendulum and make it to the other side.\n")
+    functions.time_sleep(5, "Before you stands the door. You're unaware of what is on the other side.\n")
+    functions.time_sleep(4, "You carefully grasp the handle and open it slowly. The hinged creak as you do this as the door appears to be very old.\n")
+    functions.time_sleep(5, "Inside the door is yet another room. Quite smaller than the one you were just in.\n")
+    functions.time_sleep(5, "In the center of the room you notice what appears to be a marble rectangle of some sort.\n")
+    functions.time_sleep(5, "The room appears to be some sort of crypt, with the rectangle being a casket or something.\n")
+    # ancient tomb of famous person.. look around for hidden passageway but make it a random chance of finding it.
 
 
 def middle_hallway():
