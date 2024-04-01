@@ -5,13 +5,7 @@ import random
 import time
 
 def main():
-    i = 0
-
-    while i < 5:
-
-        functions.time_sleep(.75, "LOADING...\n")
-
-        i += 1
+    functions.loading()
 
     time.sleep(2)
     functions.time_sleep(4, "You're walking in a tall grass field...\n")
@@ -108,7 +102,7 @@ def left_hallway():
 
     chance_of_survival()
 
-def left_hallway_survival_success()
+def left_hallway_survival_success():
     
     functions.time_sleep(3, "You break into a sprint and carefully dodge each pendulum and make it to the other side.\n")
     functions.time_sleep(5, "Before you stands the door. You're unaware of what is on the other side.\n")
@@ -128,4 +122,4 @@ def right_hallway():
     print("right")
 
 
-left_hallway()
+

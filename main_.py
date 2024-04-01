@@ -15,6 +15,8 @@ import functions
 
 def intro():
 
+    
+
     functions.time_sleep(0, "Welcome to this awesome program!")
     functions.time_sleep(2, "This program generates a random story for your enjoyment.")
     functions.time_sleep(3, "Enjoy and have fun!")
@@ -28,7 +30,7 @@ def main():
     # These two lines are for reference
     #functions.time_sleep(3, "You stand in front of a tree.")
     #functions.time_sleep(4, "It's a very big tree.")
-  
+    
 
     generate = input("\nTo start, enter 'N' to generate a story: ").capitalize()
 
