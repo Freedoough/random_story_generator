@@ -34,8 +34,3 @@ def loading():
         print("LOADING...\n")
 
         i += 1
-
-      
-    print("done!")
-
-

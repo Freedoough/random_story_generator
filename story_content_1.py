@@ -109,9 +109,16 @@ def left_hallway_survival_success():
     functions.time_sleep(4, "You carefully grasp the handle and open it slowly. The hinged creak as you do this as the door appears to be very old.\n")
     functions.time_sleep(5, "Inside the door is yet another room. Quite smaller than the one you were just in.\n")
     functions.time_sleep(5, "In the center of the room you notice what appears to be a marble rectangle of some sort.\n")
-    functions.time_sleep(5, "The room appears to be some sort of crypt, with the rectangle being a casket or something.\n")
+    functions.time_sleep(5, "The room appears to be some sort of crypt, with a casket.\n")
+    functions.time_sleep(3, "You open the lid.\n")
     # ancient tomb of famous person.. look around for hidden passageway but make it a random chance of finding it.
-
+    functions.time_sleep(5, "As the lid slowly scraped across the top of it, you feel a cold breeze escape the casket.\n")
+    functions.time_sleep(3, "You feel chills run down your spine.\n")
+    functions.time_sleep(4, "You then look around the room and notice a sign above the casket.\n")
+    functions.time_sleep(3, "It reads:\n")
+    functions.time_sleep(3, "Arnold Princeton")
+    functions.time_sleep(3, "1845-1862")
+    functions.time_sleep(3, "")
 
 def middle_hallway():
     #Ingot
@@ -121,5 +128,4 @@ def right_hallway():
     #Fish
     print("right")
 
-
-
+#left_hallway_survival_success()
