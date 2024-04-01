@@ -25,3 +25,17 @@ def you_died():
         time.sleep(.75)
         print("\n")
 
+def loading():
+    i = 0
+
+    while i < 5:
+
+        time.sleep(.5)
+        print("LOADING...\n")
+
+        i += 1
+
+      
+    print("done!")
+loading()
+
