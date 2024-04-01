@@ -104,7 +104,29 @@ def left_hallway():
 
 def left_hallway_survival_success():
     
+    def random_event_hidden_passage():
+        random_event = input("Enter 'R' for random event chance: ").capitalize()
+
+        if random_event == "R":
+
+            random_num = random.randint(1,20)
+        
+            if random_num >= 12:
+                print("You found a secret room!")
+            elif random_num <= 11:
+                print("You go back to the main room with the three doors.")
+            else:
+                print("INVALID")
+                time.sleep(3)
+                first_branch
+        else:
+            print("INVALID")
+            random_event_hidden_passage()
+
     functions.time_sleep(3, "You break into a sprint and carefully dodge each pendulum and make it to the other side.\n")
+    functions.time_sleep(4, "As you approach the door, you step on a pressure plate and all the pendulums slowly stop swinging.\n")
+    functions.time_sleep(4, "They lift up into the ceiling, out of sight.\n")
+    functions.time_sleep(3, "You wonder how this is possible, but turn around and continue on.\n")
     functions.time_sleep(5, "Before you stands the door. You're unaware of what is on the other side.\n")
     functions.time_sleep(4, "You carefully grasp the handle and open it slowly. The hinged creak as you do this as the door appears to be very old.\n")
     functions.time_sleep(5, "Inside the door is yet another room. Quite smaller than the one you were just in.\n")
@@ -116,9 +138,13 @@ def left_hallway_survival_success():
     functions.time_sleep(3, "You feel chills run down your spine.\n")
     functions.time_sleep(4, "You then look around the room and notice a sign above the casket.\n")
     functions.time_sleep(3, "It reads:\n")
-    functions.time_sleep(3, "Arnold Princeton")
-    functions.time_sleep(3, "1845-1862")
-    functions.time_sleep(3, "")
+    functions.time_sleep(1, "Arnold Princeton")
+    functions.time_sleep(3, "1845-1862\n")
+    functions.time_sleep(4, "From the looks of the tomb, he seemed to be a wealthy man...\n")
+
+    random_event_hidden_passage()
+    
+
 
 def middle_hallway():
     #Ingot
@@ -128,4 +154,4 @@ def right_hallway():
     #Fish
     print("right")
 
-#left_hallway_survival_success()
+left_hallway_survival_success()
