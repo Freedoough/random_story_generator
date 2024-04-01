@@ -153,5 +153,5 @@ def middle_hallway():
 def right_hallway():
     #Fish
     print("right")
-
-left_hallway_survival_success()
+#test
+#left_hallway_survival_success()
