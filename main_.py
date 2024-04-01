@@ -18,8 +18,8 @@ def intro():
     
 
     functions.time_sleep(0, "Welcome to this awesome program!")
-    functions.time_sleep(2, "This program generates a random story for your enjoyment.")
-    functions.time_sleep(3, "Enjoy and have fun!")
+    functions.time_sleep(2, "This program generates a random interactive story!")
+    functions.time_sleep(3, "Enjoy and have fun :)")
 
     user_name = input("Please enter your name: ").capitalize()
     print("Hello " + user_name + "!")
