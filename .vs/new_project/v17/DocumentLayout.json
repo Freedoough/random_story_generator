@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,9 +40,22 @@
               "RelativeDocumentMoniker": "main_.py",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\main_.py",
               "RelativeToolTip": "main_.py",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAB4AAAACAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAACAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-03-17T06:00:24.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "story_content_1.py",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_1.py",
+              "RelativeDocumentMoniker": "story_content_1.py",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_1.py",
+              "RelativeToolTip": "story_content_1.py",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-03-17T06:02:28.912Z",
               "EditorCaption": ""
             },
             {
@@ -53,21 +66,9 @@
               "RelativeDocumentMoniker": "functions.py",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\functions.py",
               "RelativeToolTip": "functions.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-03-18T01:59:07.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "story_content_1.py",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_1.py",
-              "RelativeDocumentMoniker": "story_content_1.py",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Coding\\GitHub\\new_project\\story_content_1.py",
-              "RelativeToolTip": "story_content_1.py",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAYwFsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-03-17T06:02:28.912Z",
+              "WhenOpened": "2024-03-18T01:59:07.983Z",
               "EditorCaption": ""
             }
           ]

@@ -103,6 +103,9 @@ def left_hallway():
     chance_of_survival()
 
 def left_hallway_survival_success():
+
+    def hidden_passage():
+        functions.time_sleep(4, "hidden passage")
     
     def random_event_hidden_passage():
         random_event = input("Enter 'R' for random event chance: ").capitalize()
@@ -112,7 +115,7 @@ def left_hallway_survival_success():
             random_num = random.randint(1,20)
         
             if random_num >= 12:
-                print("You found a secret room!")
+                hidden_passage()
             elif random_num <= 11:
                 print("You go back to the main room with the three doors.")
             else:
