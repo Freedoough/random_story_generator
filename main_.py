@@ -7,52 +7,60 @@ It will utilize file recognition to take pre-written story content and based on 
 import time
 import random
 import story_content_1
+import story_content_2
+import story_content_3
+import story_content_4
+import story_content_5
 import functions
 
 def intro():
 
-    print("Welcome to this awesome program!")
-    time.sleep(2)
+    
+
+    functions.time_sleep(0, "Welcome to this awesome program!")
+    functions.time_sleep(2, "This program generates a random interactive story!")
+    functions.time_sleep(3, "Enjoy and have fun :)")
+
     user_name = input("Please enter your name: ").capitalize()
-    #figure out time and print functions and pass in data to them
     print("Hello " + user_name + "!")
     
     main()
 
 def main():
-    #os.read("story_content_1.py", 'r')
-    #figure out syntax for file reading
-    time.sleep(2)
-    #make the if statements a random number from 1-5
-  
+    # These two lines are for reference
+    #functions.time_sleep(3, "You stand in front of a tree.")
+    #functions.time_sleep(4, "It's a very big tree.")
+    
 
+    generate = input("\nTo start, enter 'N' to generate a story: ").capitalize()
 
-    #test 
+    if generate == "N":
+        
+        num_random = random.randint(1, 5)
 
-    choice = input("\nTo start, pick a number from 1 to 5: ")
-
-    if choice == "1":
-        print("function 1")
-    elif choice == "2":
-        print("function 2")
-    elif choice == "3":
-        print("function 3")
-    elif choice == "4":
-        print("function 4")
-    elif choice == "5":
-        print("function 5")
+        if num_random == 1:
+            story_content_1.main()
+        elif num_random == 2:
+            story_content_2.main()
+        elif num_random == 3:
+            story_content_3.main()
+        elif num_random == 4:
+            story_content_4.main()
+        elif num_random == 5:
+            story_content_5.main()
+        else:
+            print("INVALID")
+            time.sleep(2)
+            print("Try again...")
+            time.sleep(1)
+            main()
     else:
-        print("INVALID")
-        time.sleep(2)
-        print("Try again...")
-        time.sleep(1)
+        functions.time_sleep(1, "INVALID")
+        functions.time_sleep(2, "Try again...")
         main()
 
 
-
-
-functions.time_sleep(3, "You stand in front of a tree.")
-functions.time_sleep(4, "It's a very big tree.")
-story_content_1.test()
+# This line below is for reference
+#story_content_1.test()
 intro()
 
