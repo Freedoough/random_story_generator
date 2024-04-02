@@ -70,12 +70,12 @@ def left_hallway():
     functions.time_sleep(4, "You reach out in front of you, not being able to see anything, and feel another door.\n")
     functions.time_sleep(5, "Opening the door, you're met with a long room.\n")
     functions.time_sleep(4, "You can clearly see giant swinging pendulums that are shaped like hatchets.\n")
-    functions.time_sleep(2, "At the opposite end of the room, you see another door, which looks welcoming.\n")
+    functions.time_sleep(4, "At the opposite end of the room, you see another door, which looks welcoming.\n")
     functions.time_sleep(2, "'The way out?'")
     functions.time_sleep(4, "You whisper to yourself.\n")
     functions.time_sleep(4, "You approach the first set of pendulums cautiously and plan out your next moves carefully.\n")
     
-
+    # First function random event for pendulum room
     def chance_of_survival():
         time.sleep(2)
 
@@ -101,12 +101,13 @@ def left_hallway():
             chance_of_survival()
 
     chance_of_survival()
-
+# Successful pendulum dodge for random event function
 def left_hallway_survival_success():
-
+    # Successful hidden passage code for hidden passage random event function
     def hidden_passage():
-        functions.time_sleep(4, "hidden passage")
-    
+        functions.time_sleep(4, "The whole room starts to shake and behind the casket you notice a hole in the floor start to open.\n")
+        functions.time_sleep(4, "")
+    # Random event for hidden passage
     def random_event_hidden_passage():
         random_event = input("Enter 'R' for random event chance: ").capitalize()
 
@@ -118,14 +119,15 @@ def left_hallway_survival_success():
                 hidden_passage()
             elif random_num <= 11:
                 print("You go back to the main room with the three doors.")
+                first_branch()
             else:
                 print("INVALID")
                 time.sleep(3)
-                first_branch
+                first_branch()
         else:
             print("INVALID")
             random_event_hidden_passage()
-
+    
     functions.time_sleep(3, "You break into a sprint and carefully dodge each pendulum and make it to the other side.\n")
     functions.time_sleep(4, "As you approach the door, you step on a pressure plate and all the pendulums slowly stop swinging.\n")
     functions.time_sleep(4, "They lift up into the ceiling, out of sight.\n")
@@ -156,5 +158,20 @@ def middle_hallway():
 def right_hallway():
     #Fish
     print("right")
-#test
-#left_hallway_survival_success()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# For debugging purposes
+left_hallway_survival_success()
