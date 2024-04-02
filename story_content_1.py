@@ -124,10 +124,16 @@ def left_hallway_survival_success():
 
 
         if greed == "Y":
-            print("you greedy")
+            functions.time_sleep(4, "You're a greedy human.\n")
+            functions.time_sleep(4, "You make your way back to the main room.\n")
+            functions.time_sleep(.5, "\n")
+            functions.time_sleep(.5, "\n")
             first_branch()
         elif greed == "N"
-            print("you good human")
+            functions.time_sleep(4, "You're a good human.\n")
+            functions.time_sleep(4, "You make your way back to the main room.\n")
+            functions.time_sleep(.5, "\n")
+            functions.time_sleep(.5, "\n")
             first_branch()
         else:
             print("INVALID")
