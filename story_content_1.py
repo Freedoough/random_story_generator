@@ -156,7 +156,8 @@ def left_hallway_survival_success():
             if random_num >= 12:
                 hidden_passage()
             elif random_num <= 11:
-                print("You go back to the main room with the three doors.")
+                print("You go back to the main room with the three doors.\n")
+                time.sleep(4)
                 first_branch()
             else:
                 print("INVALID")
