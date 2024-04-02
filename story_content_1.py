@@ -107,8 +107,38 @@ def left_hallway_survival_success():
     def hidden_passage():
         functions.time_sleep(4, "The whole room starts to shake and behind the casket you notice a hole in the floor start to open.\n")
         functions.time_sleep(4, "A moment later, the hole in the ground reveals a staircase made of stone.\n")
-        functions.time_sleep(4, "You contemplate going down the dark staircase, but decide to head down.\n")
-        functions.time_sleep(4, "")
+        functions.time_sleep(4, "You contemplate going down the dark staircase, and decide to head down.\n")
+        functions.time_sleep(4, "Going down the first few steps, the path quickly turns to the right and turns into a spiral staircase.\n")
+        functions.time_sleep(4, "At the very bottom, about 2 flights worth of steps, you can see a light flickering.\n")
+        functions.time_sleep(3, "You make your way down.\n")
+        functions.time_sleep(4, "At the bottom, you follow the light down a single hallway.\n")
+        functions.time_sleep(4, "Down the hallway, you walk into a room.\n")
+        functions.time_sleep(3, "You can't believe your eyes.\n")
+        functions.time_sleep(.5, "\n")
+        functions.time_sleep(.5, "\n")
+        functions.time_sleep(4, "Inside the room lies hidden treasures the likes of which you've never seen before.\n")
+        functions.time_sleep(4, "Gold, Diamonds, Pearls, Jewelery and so much more!\n")
+        functions.time_sleep(4, "You contemplate stuffing your pockets for when you escape...\n")
+
+        greed = input("Do you stuff your pockets? (Y/N):").capitalize()
+
+
+        if greed == "Y":
+            print("you greedy")
+            first_branch()
+        elif greed == "N"
+            print("you good human")
+            first_branch()
+        else:
+            print("INVALID")
+            time.sleep(4)
+            print("You head back to the main room.\n")
+            time.sleep(3)
+            first_branch()
+
+
+
+
     # Random event for hidden passage
     def random_event_hidden_passage():
         random_event = input("Enter 'R' for random event chance: ").capitalize()
