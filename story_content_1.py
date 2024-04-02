@@ -106,6 +106,8 @@ def left_hallway_survival_success():
     # Successful hidden passage code for hidden passage random event function
     def hidden_passage():
         functions.time_sleep(4, "The whole room starts to shake and behind the casket you notice a hole in the floor start to open.\n")
+        functions.time_sleep(4, "A moment later, the hole in the ground reveals a staircase made of stone.\n")
+        functions.time_sleep(4, "You contemplate going down the dark staircase, but decide to head down.\n")
         functions.time_sleep(4, "")
     # Random event for hidden passage
     def random_event_hidden_passage():
@@ -149,7 +151,19 @@ def left_hallway_survival_success():
 
     random_event_hidden_passage()
     
-
+def left_hallway_survival_failure():
+    time.sleep(2)
+    functions.time_sleep(4, "You break into a sprint towards the pendulums, trying to time it just right.\n")
+    functions.time_sleep(4, "You make it past the first pendulum, you feel so proud of yourself that you lose your focus...\n")
+    functions.time_sleep(3, "And therefore, your balance.\n")
+    functions.time_sleep(4, "Causing you to trip going into the second pendulum.\n")
+    functions.time_sleep(4, "You stumble into its path as you look to it swinging in your direction.\n")
+    functions.time_sleep(3, "It's only a split second until you get hit with the pendulum...\n")
+    functions.time_sleep(3, "It happens so fast, you can't process it fast enough.\n")
+    functions.you_died()
+    time.sleep(3)
+    # Prompt the user to choose whether they want to try this story again, or go back to the main program file
+    # and start another one
 
 def middle_hallway():
     #Ingot
