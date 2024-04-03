@@ -206,6 +206,13 @@ def middle_hallway():
     #Ingot
     time.sleep(2)
     functions.time_sleep(4, "You hastily enter the middle hallway.\n")
+    functions.time_sleep(4, "The hallway starts moving down, like a ramp.")
+    functions.time_sleep(4, "The path narrows slightly as you move forward and flattens out after a little bit.\n")
+    functions.time_sleep(4, "You can make out metal beams on the ground, like some sort of rail system.\n")
+    functions.time_sleep(4, "Torches on the wall light the way.\n")
+    functions.time_sleep(4, "You then notice wooden support beams surrounding the entirety of the hallway and intermittently in the distance.\n")
+    functions.time_sleep(4, "You're in an abandoned mineshaft...\n")
+
 
 
 def right_hallway():
