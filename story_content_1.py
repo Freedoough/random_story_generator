@@ -129,7 +129,7 @@ def left_hallway_survival_success():
             functions.time_sleep(.5, "\n")
             functions.time_sleep(.5, "\n")
             first_branch()
-        elif greed == "N"
+        elif greed == "N":
             functions.time_sleep(4, "You're a good human.\n")
             functions.time_sleep(4, "You make your way back to the main room.\n")
             functions.time_sleep(.5, "\n")
@@ -204,7 +204,9 @@ def left_hallway_survival_failure():
 
 def middle_hallway():
     #Ingot
-    print("middle")
+    time.sleep(2)
+    functions.time_sleep(4, "You hastily enter the middle hallway.\n")
+
 
 def right_hallway():
     #Fish
@@ -225,4 +227,4 @@ def right_hallway():
 
 
 # For debugging purposes
-left_hallway_survival_success()
+#left_hallway_survival_success()
