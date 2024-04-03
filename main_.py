@@ -13,7 +13,7 @@ import story_content_4
 import story_content_5
 import functions
 
-def intro():
+def intro(user_name):
 
     
     functions.time_sleep(2, "")
@@ -26,7 +26,6 @@ def intro():
     
     
     main()
-    return user_name
 
 def main():
     # These two lines are for reference
@@ -64,5 +63,5 @@ def main():
 
 # This line below is for reference
 #story_content_1.test()
-intro()
+intro("name")
 

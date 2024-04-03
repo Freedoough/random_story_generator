@@ -5,4 +5,4 @@ import time
 # Attempting to import user's name from main.py file intro function
 
 
-main_.intro(print(""))
+main_.intro(print("hello," + user_name))
