@@ -13,8 +13,9 @@ import story_content_4
 import story_content_5
 import functions
 
-def intro(user_name):
+def intro():
 
+    
     
     functions.time_sleep(2, "")
     functions.time_sleep(3, "Welcome to this awesome program!")
@@ -24,8 +25,9 @@ def intro(user_name):
     user_name = input("Please enter your name: ").capitalize()
     print("Hello " + user_name + "!")
     
-    
+    return user_name
     main()
+    
 
 def main():
     # These two lines are for reference
@@ -63,5 +65,5 @@ def main():
 
 # This line below is for reference
 #story_content_1.test()
-intro("name")
+intro()
 
