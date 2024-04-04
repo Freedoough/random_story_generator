@@ -3,6 +3,7 @@
 import functions
 import random
 import time
+#import main_
 
 def main():
     functions.loading()
@@ -177,12 +178,12 @@ def left_hallway_survival_success():
     functions.time_sleep(5, "In the center of the room you notice what appears to be a marble rectangle of some sort.\n")
     functions.time_sleep(5, "The room appears to be some sort of crypt, with a casket.\n")
     functions.time_sleep(3, "You open the lid.\n")
-    # ancient tomb of famous person.. look around for hidden passageway but make it a random chance of finding it.
     functions.time_sleep(5, "As the lid slowly scraped across the top of it, you feel a cold breeze escape the casket.\n")
     functions.time_sleep(3, "You feel chills run down your spine.\n")
     functions.time_sleep(4, "You then look around the room and notice a sign above the casket.\n")
     functions.time_sleep(3, "It reads:\n")
-    functions.time_sleep(1, "Arnold Princeton")
+    # Make the name of the sign say the user's name
+    functions.time_sleep(1, "Arnold Princeton\n")
     functions.time_sleep(3, "1845-1862\n")
     functions.time_sleep(4, "From the looks of the tomb, he seemed to be a wealthy man...\n")
 
@@ -212,25 +213,12 @@ def middle_hallway():
     functions.time_sleep(4, "Torches on the wall light the way.\n")
     functions.time_sleep(4, "You then notice wooden support beams surrounding the entirety of the hallway and intermittently in the distance.\n")
     functions.time_sleep(4, "You're in an abandoned mineshaft...\n")
-
+    
 
 
 def right_hallway():
     #Fish
     print("right")
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # For debugging purposes

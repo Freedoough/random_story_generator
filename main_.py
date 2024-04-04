@@ -25,8 +25,9 @@ def intro():
     user_name = input("Please enter your name: ").capitalize()
     print("Hello " + user_name + "!")
     
-    return user_name
+    
     main()
+    return user_name
     
 
 def main():
@@ -39,7 +40,7 @@ def main():
 
     if generate == "N":
         
-        num_random = random.randint(1, 5)
+        num_random = random.randint(1, 1)
 
         if num_random == 1:
             story_content_1.main()

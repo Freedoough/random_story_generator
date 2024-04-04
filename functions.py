@@ -13,7 +13,7 @@ def you_died():
 
     while n < 10:
         n += 1
-        time.sleep(.75)
+        time.sleep(.5)
         print("\n")
 
     print("...YOU DIED...")
@@ -22,7 +22,7 @@ def you_died():
 
     while x < 10:
         x += 1
-        time.sleep(.75)
+        time.sleep(.5)
         print("\n")
 
 def loading():
