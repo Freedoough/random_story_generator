@@ -205,14 +205,52 @@ def left_hallway_survival_failure():
 
 def middle_hallway():
     #Ingot
+
+    def minecart_enter():
+
+        minecart_choice = input("Get in the minecart? (Y/N): ").capitalize()
+
+
+
+        if minecart_choice == "Y":
+            minecart_ride()
+        elif minecart_choice == "N":
+            print("\n")
+            functions.time_sleep(4, "You refuse to enter the cart. Just staring at it.\n")
+            functions.time_sleep(4, "You then feel a pull towards the cart.\n")
+            functions.time_sleep(4, "You hear it beckoning to you.\n")
+            functions.time_sleep(4, "Unable to control yourself, you enter the cart.\n")
+            minecart_ride()
+        else: 
+            functions.time_sleep(4, "INVALID")
+            functions.time_sleep(2, "\n")
+            minecart_enter()
+
+    def minecart_ride():
+        functions.time_sleep(4, "Minecart")
+        functions.time_sleep(3, "test")
+
+
+
     time.sleep(2)
     functions.time_sleep(4, "You hastily enter the middle hallway.\n")
-    functions.time_sleep(4, "The hallway starts moving down, like a ramp.")
+    functions.time_sleep(4, "The hallway starts moving down, like a ramp.\n")
     functions.time_sleep(4, "The path narrows slightly as you move forward and flattens out after a little bit.\n")
     functions.time_sleep(4, "You can make out metal beams on the ground, like some sort of rail system.\n")
     functions.time_sleep(4, "Torches on the wall light the way.\n")
     functions.time_sleep(4, "You then notice wooden support beams surrounding the entirety of the hallway and intermittently in the distance.\n")
     functions.time_sleep(4, "You're in an abandoned mineshaft...\n")
+    functions.time_sleep(3, "You hear rumbling in the distance.\n")
+    functions.time_sleep(3, "It appears to be getting closer.\n")
+    functions.time_sleep(4, "A lone minecart rolls in your direction from the distance.\n")
+    # Prompt the user to enter the minecart, if no, have the user stare at the minecart and it "beckons" them to enter
+    # Almost hypnotizing them to get in. And they eventually get in.
+    functions.time_sleep(4, "It comes to a stop in front of you.\n")
+    
+    minecart_enter()
+
+
+
     
 
 
@@ -222,4 +260,4 @@ def right_hallway():
 
 
 # For debugging purposes
-#left_hallway_survival_success()
+middle_hallway()

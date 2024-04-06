@@ -40,7 +40,7 @@ def main():
 
     if generate == "N":
         
-        num_random = random.randint(1, 1)
+        num_random = random.randint(1, 5)
 
         if num_random == 1:
             story_content_1.main()
