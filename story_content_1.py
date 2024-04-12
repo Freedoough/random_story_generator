@@ -210,8 +210,6 @@ def middle_hallway():
 
         minecart_choice = input("Get in the minecart? (Y/N): ").capitalize()
 
-
-
         if minecart_choice == "Y":
             minecart_ride()
         elif minecart_choice == "N":
@@ -227,8 +225,49 @@ def middle_hallway():
             minecart_enter()
 
     def minecart_ride():
-        functions.time_sleep(4, "Minecart")
-        functions.time_sleep(3, "test")
+
+        def lava_dodge_success():
+            #user dodges lava plume
+            #continues down tracks (different function)
+
+        def lava_dodge_fail():
+            #user fails to dodge lava plume
+            #gets hit with lava and it melts the cart, user falls into lava
+            #you_died function
+
+
+
+        def lava_dodge():
+
+            functions.time_sleep(1, "QUICK!")
+
+            dodge = input("PRESS 'S' TO AVOID THE LAVA:").capitalize()
+
+            chance = random.randint(1, 12)
+
+            if chance >= 7:
+                lava_dodge_success()
+            elif chance <=6:
+                lava_dodge_fail()
+
+
+
+        functions.time_sleep(3, "After entering the cart, it starts to roll down the tracks.\n")
+        functions.time_sleep(3, "The torches on the wall disappear after a few hundred feet.\n")
+        functions.time_sleep(4, "The cart continues to roll down the tracks, going deeper and deeper into the mine.\n")
+        functions.time_sleep(4, "You roll through an opening into a pretty big room, about the size of a football field.\n")
+        functions.time_sleep(4, "The room is brightly lit. You hesitate to look down, but do it anyway.\n")
+        functions.time_sleep(3, "Below you, about 200 feet down is a giant lava pit.\n")
+        functions.time_sleep(4, "As you roll down the rails, losing speed, you hear the pit below you rumble...\n")
+        functions.time_sleep(4, "Suddenly, you notice a giant stream of lava start to burst up straight towards your cart.\n")
+        functions.time_sleep(4, "You have little time to react. You need to act fast.\n")
+        
+        lava_dodge()
+
+        
+
+
+
 
 
 
@@ -239,12 +278,10 @@ def middle_hallway():
     functions.time_sleep(4, "You can make out metal beams on the ground, like some sort of rail system.\n")
     functions.time_sleep(4, "Torches on the wall light the way.\n")
     functions.time_sleep(4, "You then notice wooden support beams surrounding the entirety of the hallway and intermittently in the distance.\n")
-    functions.time_sleep(4, "You're in an abandoned mineshaft...\n")
+    functions.time_sleep(3, "You're in an abandoned mineshaft...\n")
     functions.time_sleep(3, "You hear rumbling in the distance.\n")
     functions.time_sleep(3, "It appears to be getting closer.\n")
-    functions.time_sleep(4, "A lone minecart rolls in your direction from the distance.\n")
-    # Prompt the user to enter the minecart, if no, have the user stare at the minecart and it "beckons" them to enter
-    # Almost hypnotizing them to get in. And they eventually get in.
+    functions.time_sleep(3, "A lone minecart rolls in your direction from the distance.\n")
     functions.time_sleep(4, "It comes to a stop in front of you.\n")
     
     minecart_enter()
