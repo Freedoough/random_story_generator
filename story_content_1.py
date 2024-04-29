@@ -229,7 +229,10 @@ def middle_hallway():
         def lava_dodge_success():
             #user dodges lava plume
             #continues down tracks (different function)
-            functions.time_sleep(1, "LAVA DODGE SUCCESS")
+            functions.time_sleep(3, "\nYou lean your body weight to one side of the cart.\n")
+            functions.time_sleep(4, "The cart leans on two wheels as the lava plume shoots straight up.\n")
+            functions.time_sleep(3, "It successfully misses the cart!\n")
+
 
         def lava_dodge_fail():
             #user fails to dodge lava plume
