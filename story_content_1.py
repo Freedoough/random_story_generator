@@ -179,10 +179,10 @@ def left_hallway_survival_success():
     functions.time_sleep(5, "The room appears to be some sort of crypt, with a casket.\n")
     functions.time_sleep(3, "You open the lid.\n")
     functions.time_sleep(5, "As the lid slowly scraped across the top of it, you feel a cold breeze escape the casket.\n")
-    functions.time_sleep(3, "You feel chills run down your spine.\n")
+    functions.time_sleep(3, "Chills run down your spine.\n")
     functions.time_sleep(4, "You then look around the room and notice a sign above the casket.\n")
     functions.time_sleep(3, "It reads:\n")
-    # Make the name of the sign say the user's name
+    # Make the name of the sign say the user's name somehow
     functions.time_sleep(1, "Arnold Princeton\n")
     functions.time_sleep(3, "1845-1862\n")
     functions.time_sleep(4, "From the looks of the tomb, he seemed to be a wealthy man...\n")
@@ -226,19 +226,26 @@ def middle_hallway():
 
     def minecart_ride():
 
+        def ride_continues():
+            #user continues down minecart track
+            functions.time_sleep(3, "")
+
         def lava_dodge_success():
             #user dodges lava plume
-            #continues down tracks (different function)
+            
             functions.time_sleep(3, "\nYou lean your body weight to one side of the cart.\n")
             functions.time_sleep(4, "The cart leans on two wheels as the lava plume shoots straight up.\n")
             functions.time_sleep(3, "It successfully misses the cart!\n")
+            ride_continues()
 
 
         def lava_dodge_fail():
-            #user fails to dodge lava plume
-            #gets hit with lava and it melts the cart, user falls into lava
-            #you_died function
-            functions.time_sleep(1, "LAVA DODGE FAIL")
+            functions.time_sleep(1, "Unfortunately, you weren't able to dodge the lava plume.\n")
+            functions.time_sleep(3, "In the split second of you attempting to dodge it, your cart gets hit.\n")
+            functions.time_sleep(3, "Instantly, the cart melts from the intense heat.\n")
+            functions.time_sleep(2, "You have zero time to comprehend what is happening as you evaporate in the blink of an eye.")
+
+            functions.you_died()
 
 
 
@@ -268,14 +275,7 @@ def middle_hallway():
         functions.time_sleep(4, "You have little time to react. You need to act fast.\n")
         
         lava_dodge()
-
-        
-
-
-
-
-
-
+     
     time.sleep(2)
     functions.time_sleep(4, "You hastily enter the middle hallway.\n")
     functions.time_sleep(4, "The hallway starts moving down, like a ramp.\n")

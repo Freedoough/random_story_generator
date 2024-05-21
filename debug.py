@@ -13,9 +13,6 @@ def new_text(input_text):
 
 user_name = main_.intro()
 
-
-
-
 # AI Help
 # File 1 - first_file.py
 # def my_function():
