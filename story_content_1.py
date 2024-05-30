@@ -40,7 +40,7 @@ def main():
     functions.time_sleep(5, "Out of curiousity, you approach the wall to get a better look.\n")
     functions.time_sleep(4, "The sign above the left hallway has an crude drawing of a skull and crossbones.\n")
     functions.time_sleep(4, "The sign above the middle hallway has another drawing of what appears to be an ingot of some kind.\n")
-    functions.time_sleep(4, "Finally, the sign above the right hallway has a drawing of a very basic fish. Something like a kindergartener would draw.\n")
+    functions.time_sleep(5, "Finally, the sign above the right hallway has a drawing of a very basic fish. Something like a kindergartener would draw.\n")
 
     first_branch()
 
@@ -228,7 +228,25 @@ def middle_hallway():
 
         def ride_continues():
             #user continues down minecart track
+            functions.time_sleep(4, "After that close encounter, you and the cart continue down the tracks.\n")
+            functions.time_sleep(3, "They lead out of the lava room.\n")
+            functions.time_sleep(3, "Visibility diminishes as you travel away from the lava room.\n")
+            functions.time_sleep(3, "The only way of knowing where you're going is purely based on the feeling of the minecart.\n")
+            functions.time_sleep(3, "The tracks suddenly drop, same with your stomach as it would on a roller coaster.\n")
+            functions.time_sleep(3, "You pick up speed...\n")
+            functions.time_sleep(2, "So much speed...\n")
+            functions.time_sleep(1, "TOO MUCH speed!\n")
+            functions.time_sleep(2, "The bottom of the drop approaches and it quickly levels out.\n")
+            functions.time_sleep(3, "Going an ungodly speed in a dark mineshaft, you feel the cart follow the tracks left.\n")
+            functions.time_sleep(3, "And then right.\n")
+            functions.time_sleep(2, "You fear for your life.\n")
+            functions.time_sleep(3, "The tracks suddenly go uphill.\n")
+            functions.time_sleep(3, "The cart loses speed as you approach the crest of the hill.\n")
+            functions.time_sleep(3, "At the end of the tracks, the cart comes to a stop against a track buffer.\n")
+            functions.time_sleep(3, "Your cart ends up at the end of another dark tunnel.\n")
+            functions.time_sleep(3, "With zero hesitation, you exit the cart.\n")
             functions.time_sleep(3, "")
+
 
         def lava_dodge_success():
             #user dodges lava plume
