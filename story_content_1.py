@@ -245,11 +245,32 @@ def middle_hallway():
             functions.time_sleep(3, "At the end of the tracks, the cart comes to a stop against a track buffer.\n")
             functions.time_sleep(3, "Your cart ends up at the end of another dark tunnel.\n")
             functions.time_sleep(3, "With zero hesitation, you exit the cart.\n")
-            functions.time_sleep(3, "")
+            functions.time_sleep(3, "You make your way down the tunnel, once again.\n")
+            functions.time_sleep(4, "You become anxious for what seems like zero reason.\n")
+            functions.time_sleep(4, "Your heart rate increases, and sweat beads manifest on your skin.\n")
+            functions.time_sleep(5, "Eventually reaching the end of the long straight tunnel, ignoring the signs your body is telling you.\n")
+            functions.time_sleep(4, "The end of the tunnel reveals another large, spherical room. About the size of a small apartment.\n")
+            functions.time_sleep(4, "You enter the room, barely being able to see your hands in front of you.\n")
+            functions.time_sleep(4, "As you make your way towards the center, you kick something with your foot.\n")
+            functions.time_sleep(4, "Out of curiousity and ignorance, you reach down to pick up the object to try and identify it.\n")
+            functions.time_sleep(4, "Upon very close examination, about as close as you can get with the visibility; you discover that it's a bone.\n")
+            functions.time_sleep(3, "Who knows what type of animal it came from.\n")
+            functions.time_sleep(4, "Perhaps a human...\n")
+            functions.time_sleep(4, "While you're inspecting the bone, an ominous sound eminates from behind you.\n")
+            functions.time_sleep(4, "You turn around slowly...\n")
+            functions.time_sleep(3, "The ground begins to shake beneath your feet.\n")
+            functions.time_sleep(4, "")
+            
+            # Figure out ending:
+            # An unknown creature is lurking deep in the mineshaft,
+            # the user has an encounter with the creature and the storyline ends with either 
+            # being killed by the creature or by the creature causing a collapse of the mineshaft, killing
+            # both the creature and the user
+            # after death or either outcome, prompt the user to replay the program to get a different story
 
 
         def lava_dodge_success():
-            #user dodges lava plume
+            # user dodges lava plume
             
             functions.time_sleep(3, "\nYou lean your body weight to one side of the cart.\n")
             functions.time_sleep(4, "The cart leans on two wheels as the lava plume shoots straight up.\n")
@@ -316,6 +337,7 @@ def middle_hallway():
 
 def right_hallway():
     #Fish
+    # have this be the way out
     print("right")
 
 
