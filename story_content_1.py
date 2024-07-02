@@ -3,7 +3,9 @@
 import functions
 import random
 import time
-#import main_
+from intro import intro
+import main_
+
 
 def main():
     functions.loading()
@@ -125,6 +127,7 @@ def left_hallway_survival_success():
 
 
         if greed == "Y":
+            # The treasure is booby trapped and the room collapses when it detects the weight of the treasure get moved/removed
             functions.time_sleep(4, "You're a greedy human.\n")
             functions.time_sleep(4, "You make your way back to the main room.\n")
             functions.time_sleep(.5, "\n")
@@ -259,6 +262,10 @@ def middle_hallway():
             functions.time_sleep(4, "While you're inspecting the bone, an ominous sound eminates from behind you.\n")
             functions.time_sleep(4, "You turn around slowly...\n")
             functions.time_sleep(3, "The ground begins to shake beneath your feet.\n")
+            functions.time_sleep(4, "A small glimmer of light emerges out of nowhere from a huge hole in the wall right next to where you came in.\n")
+            functions.time_sleep(4, "It appears to be some sort of cave, not part of the mineshaft.\n")
+            functions.time_sleep(4, "A large, humanoid creature emerges from behind the light, making the ground rumble with every step.\n")
+            
             functions.time_sleep(4, "")
             
             # Figure out ending:
@@ -342,4 +349,4 @@ def right_hallway():
 
 
 # For debugging purposes
-middle_hallway()
+#middle_hallway()
