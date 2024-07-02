@@ -31,29 +31,29 @@
 
 
 
-def function1():
-    print("function 1!")
+# def function1():
+#     print("function 1!")
     
-    def nested_function2():
-        print("nested function 2!")
-    def nested_function1():
-        print("nested function 1!")
-        nested_function2()
+#     def nested_function2():
+#         print("nested function 2!")
+#     def nested_function1():
+#         print("nested function 1!")
+#         nested_function2()
 
-    nested_function1()
-    
-
-
-
-    
-    
-
-
+#     nested_function1()
     
 
 
 
-function1()
+    
+    
+
+
+    
+
+
+
+# function1()
 
 
 

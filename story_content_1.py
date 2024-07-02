@@ -3,8 +3,8 @@
 import functions
 import random
 import time
-from intro import intro
-import main_
+
+
 
 
 def main():
@@ -150,7 +150,11 @@ def left_hallway_survival_success():
 
 
     # Random event for hidden passage
+    # use this function for importing user_name variable from main_.py
+    # (actually not sure if it's this function)
     def random_event_hidden_passage():
+        #from main_ import intro
+
         random_event = input("Enter 'R' for random event chance: ").capitalize()
 
         if random_event == "R":

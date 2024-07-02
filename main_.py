@@ -12,11 +12,22 @@ import story_content_3
 import story_content_4
 import story_content_5
 import functions
-import intro
 
-a = intro("name")
-print(a)
+
+def intro():
+
     
+    
+    functions.time_sleep(2, "")
+    functions.time_sleep(3, "Welcome to this awesome program!")
+    functions.time_sleep(2, "This program generates a random interactive story!")
+    functions.time_sleep(3, "Enjoy and have fun :)")
+
+    
+    user_name = input("Please enter your name: ").capitalize()
+    print("Hello " + user_name + "!")
+    
+    main()
 
 def main():
     # These two lines are for reference
@@ -28,6 +39,7 @@ def main():
 
     if generate == "N":
         
+        # number range set to 1-1 for debugging SC1 purposes
         num_random = random.randint(1, 1)
 
         if num_random == 1:
