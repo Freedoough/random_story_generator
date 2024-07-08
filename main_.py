@@ -12,28 +12,22 @@ import story_content_3
 import story_content_4
 import story_content_5
 import functions
+import intro
 
-
-def intro():
-
-    
-    
-    functions.time_sleep(2, "")
-    functions.time_sleep(3, "Welcome to this awesome program!")
-    functions.time_sleep(2, "This program generates a random interactive story!")
-    functions.time_sleep(3, "Enjoy and have fun :)")
-
-    
-    user_name = input("Please enter your name: ").capitalize()
-    print("Hello " + user_name + "!")
-    
-    main()
 
 def main():
     # These two lines are for reference
     #functions.time_sleep(3, "You stand in front of a tree.")
     #functions.time_sleep(4, "It's a very big tree.")
     
+    #Run the intro function and assign return value to user_name
+    user_name = intro.intro()
+    print ("User name - " + user_name + " - from intro file function in main")
+
+    story_content_1.main(user_name)
+
+    #Could alternatively skip variable assignment and put the intro call directly in the print statement
+    #print ("User name - " + intro.intro() + " - from intro file function in main")
 
     generate = input("\nTo start, enter 'N' to generate a story: ").capitalize()
 
@@ -43,7 +37,7 @@ def main():
         num_random = random.randint(1, 1)
 
         if num_random == 1:
-            story_content_1.main()
+            story_content_1.main(user_name)
         elif num_random == 2:
             story_content_2.main()
         elif num_random == 3:
@@ -64,9 +58,10 @@ def main():
         main()
 
 
+main()
+
 # This line below is for reference
 #story_content_1.test()
-intro()
 
 #Turn this file into "driver file"
 #Perhaps make a new branch and try it that way

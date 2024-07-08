@@ -7,7 +7,9 @@ import time
 
 
 
-def main():
+def main(user_name):
+    print ("User name - " + user_name + " - from intro file function in story content 1")
+
     functions.loading()
 
     time.sleep(2)

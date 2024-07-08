@@ -1,7 +1,6 @@
 
 def intro():
     import functions
-    from main_ import main
     
     
     functions.time_sleep(2, "")
@@ -13,9 +12,8 @@ def intro():
     user_name = input("Please enter your name: ").capitalize()
     print("Hello " + user_name + "!")
     
-    main_.main()
-    
-    
+    #Return user name value from function
+    return user_name
    
     
 
